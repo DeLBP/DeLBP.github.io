@@ -36,7 +36,7 @@ Submission site: https://easychair.org/conferences/?conf=delbp2016
 
 ## Organizers
 - [Parisa Kordjamshidi](http://people.cs.kuleuven.be/~parisa.kordjamshidi/)
-- [Dan Roth](http://people.cs.kuleuven.be/~parisa.kordjamshidi/)
+- [Dan Roth](http://l2r.cs.uiuc.edu/)
 - [Avi Pfeffer](http://www.gelberpfeffer.net/avi)
 - [Guy Van den Broeck](http://people.cs.kuleuven.be/~guy.vandenbroeck/)
 - [Sameer Singh](http://sameersingh.org)
