@@ -1,6 +1,8 @@
 # DeLBP 2016
 ## AAAI Workshop on Declarative Learning Based Programming
 
+#Deadline Extended to October 31st
+
 The main goal of Declarative Learning Based Programming (DeLBP) workshop is to investigate the issues that arise when designing and using programming languages that support learning from data and knowledge. 
 
 DeLBP aims at facilitating and simplifying the design and development of intelligent real world applications that use machine learning and reasoning by addressing the following commonly observed challenges:
@@ -23,7 +25,7 @@ We aim to discuss and investigate the required type of languages and representat
 - Applications in Natural language processing, Computer vision and Bioinformatics
 
 ## Dates
-- **Submission Deadline:** October 23, 2015
+- **Submission Deadline:** October 23, 2015 => Extended to October 31, 2015
 - **Notification:** November 23, 2015
 - **Workshop Days:** February 12-13, 2016
 
