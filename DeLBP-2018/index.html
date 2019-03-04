@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DeLBP 2018 by DeLBP</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link
+    href='http://fonts.googleapis.com/css?family=Open+Sans:400,700'
+rel='stylesheet' type='text/css'>
+<link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css"
+href="stylesheets/github-light.css" media="screen">
+
+<!-- Latest compiled and minified CSS -->
+ 
+
+  </head>
+  <body>
+<section class="page-header">
+
+      <h1 class="project-name">DeLBP 2018</h1>
+      <h2 class="project-tagline">Third International Workshop on Declarative
+Learning Based Programming</h2>
+<h2  class="project-tagline">In conjunction with the Thirty-Second AAAI Conference on Artificial Intelligence <a href="https://aaai.org/Conferences/AAAI/aaai18.php">(AAAI-2018)</a>, February 3rd, 2018, New Orleans, Louisiana, USA.</h2>
+<br>
+Location: Hilton New Orleans Riverside hotel, Trafalgar, 3rd floor. 
+</section>
+<section>
+  <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <butfton type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+           
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#topics">Topics</a></a></li>
+        <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#invitedSpeakers">Invited Speakers</a></li>
+	      <li><a href="#submission-info">Submission</a></li>
+         <li><a href="#important-dates">Important Dates</a></li>
+	      <!--li><a href="#demos">Demos</a></li-->
+	      <!--li><a href="#panel">Panel</a></li-->
+	      <!--li><a href="#submission-info">Submission</a></li-->
+	      <li><a href="#organizers">Organizers</a></li>
+        <li><a href="http://delbp.github.io/pastWorkshops.html">Past Workshops</a>
+            </ul>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+</section>
+
+
+<section class="main-content">
+
+<h2>Overview</h2>
+
+<h4>Demand for real world applications</h4>
+<p>Nowadays, to solve real-world problems in many areas such as cognitive sciences, biology, finance,  physics, social sciences, etc,  scientists think about data-driven solutions to a progressively increasing extent. 
+<h4>Challenge for domain experts</h4>
+However, current technologies offer cumbersome solutions along multiple dimensions. Some of this include, Interaction with messy naturally occurring data; Necessity for extensive programming; Necessity of exploiting various learning  paradigms and techniques; and Extensive experimental exploration for model selection, feature selection, parameter tuning due to the lack of theoretical evidence about the effectiveness of various models.</p>
+
+<h4>High-level goal and implied directions</h4>
+<p>DeLBP workshop aims at highlighting the issues and challenges that arise for having a declarative data driven problem-solving paradigm. This paradigm facilitates and simplifies the design and the development of intelligent real world applications that consider learning from data and reasoning based on knowledge.  It highlights the challenges in making machine learning accessible to various domain experts and application programmers.
+</p>
+<p>
+Conventional programming languages have not been primarily designed to offer help for the above-mentioned challenges.  To Achieve the DeLBP goals there is a need to go beyond designing tools for classic machine learning  new innovative abstractions and enriching the existing solutions and frameworks with the capabilities in: 
+</p>
+<p>
+<strong> Specifying </strong> the requirements of the application at a high abstraction level; 
+<strong>Exploiting</strong> the expert knowledge in learning;
+<strong>Dealing</strong> with uncertainty in data and knowledge in various layers of the application program; Using representations that support flexible relational feature engineering; 
+<strong>Using</strong> representations that support flexible reasoning and structure learning; 
+<strong>Ability</strong> to reuse, combining and chaining models and perform flexible inference on complex models or pipelines of decision making;
+<strong>Integrating</strong> a range of learning and inference algorithms; 
+<strong>Closing</strong> the loop of moving from data to knowledge and exploiting knowledge to generate data; <strong>and</strong> finally having a unified programming environment to design application programs. 
+</p>
+<p>
+<h4>Related communities</h4> 
+Over the last few years the research community has tried to address these problems from multiple perspectives, most notably various approaches based on Probabilistic programming (PP), Logical Programming (LP), Constrained Conditional models (CCM) and other integrated paradigms such as Probabilistic Logical Programming (PLP) and Statistical relational learning (SRL). These paradigms  and related languages aim at learning over probabilistic structures and exploiting knowledge in learning. Moreover, in the recent years several Deep Learning tools have created easy to use abstractions for programming model configurations for deep architectures.
+We aim at motivating the need for further research toward a unified framework in this area based on the above mentioned key existing paradigms as well as other related research such as First-order query languages, database management systems (DBMS), deductive databases (DDB), hybrid optimization and deep architectures for learning from data and knowledge. We are interested in connecting these ideas towards developing a Declarative Learning Based Programming Paradigm and investigate the required type of languages, representations and computational models to support such a paradigm. </p>
+
+<h4>Highlight</h4>
+Though the theme of this workshop remains generic as in the past versions, we will aim at emphasizing on ideas and opinions regarding conceptual representations of deep learning architectures that connect various computational units to the semantics of declarative data and knowledge representations. We also encourage submissions on learning to learn programs.
+
+<a id="topics" class="anchor" href="#topics" aria-hidden="true"><span class="octicon octicon-link"></span></a><h2>Topics Summary</h2>
+
+ The main research questions and topics of interest include the following existing topics in the context of an integrated learning based paradigm:
+
+<ul>
+<li>New programming abstractions and modularity levels towards a unified framework for (deep/structured) learning and reasoning,</li>
+<ul><li>Frameworks/Computational models to combine learning and reasoning paradigms and exploit  accomplishments in AI from various perspectives.</li></ul>
+<li>Flexible use of structured and relational data from heterogeneous resources in learning.
+<ul><li>Data modeling (relational/graph-based databases) issues in such a new integrated framework for learning based on data and knowledge.</li></ul>
+<li>Exploiting knowledge such as expert knowledge and common sense knowledge expressed via multiple formalisms, in learning.
+<li>The ability of closing the loop to acquire knowledge from data and data from knowledge towards  life-long learning, and reasoning.
+<li>Using declarative domain knowledge to guide the design of learning models, 
+<ul><li>including feature extraction, model selection, dependency structure and deep model architecture.</li></ul>
+<li>Automation of hyper-parameter tuning.
+
+<li>Design and representation of complex learning and inference models.
+<li>The interface for learning-based programming,
+<ul> <li>either in the form of programming languages, declarations, frameworks, libraries or graphical user interfaces. </li></ul>
+<li> Storage and retrieval of trained learning models in a flexible way to facilitate incremental learning.   
+<li>Related applications in Natural language processing, Computer vision, Bioinformatics, Computational biology, multi-agent systems, etc. 
+<li> Learning to learn programs </li>  
+</ul>
+
+
+<a id="schedule" class="anchor" href="#schedule" aria-hidden="true"><span class="octicon octicon-link"></span></a><h2>Schedule</h2>
+<table class="table" style="width:100%">
+      <tr class="info">
+        <td>9:00-9:15</td>
+        <td><strong>Workshop Overview.</strong> DeLBP aims and challenges</td> 
+        <td>Parisa Kordjamshidi</td>
+      </tr>
+      <tr class="success">
+        <td>9:15-10:05</td>
+        <td><strong>Keynote talk. </strong> Scruff: A Deep Probabilistic Cognitive Architecture <a href="slides/ScruffTalkv6.pptx"> [Slides]</a></td> 
+        <td> Avi Pfeffer</td>
+      </tr>
+      <tr>
+        <td>10:05-10:25</td>
+        <td><strong>Accepted paper.</strong> Fairness-aware Relational Learning and Inference <a href="papers/Farnadi.pdf"> [Paper]</a> </td><td> Golnoosh Farnadi, Behrouz Babaki and Lise Getoor</td> 
+        <td> </td>
+      </tr>
+      
+      <tr class="info">
+        <td>10:30-11:00</td>
+        <td><strong>Coffee Break </strong></td> 
+        <td> </td>
+      </tr>
+      <tr class="success">
+        <td>11:00-11:50</td>
+        <td><strong>Keynote talk. </strong>Reading and Reasoning with Neural Program Interpreters <a href="slides/DeLBP17_Riedel.pdf"> [Slides]</a></td> 
+        <td>Sebastian Riedel</td>
+      </tr>
+      <tr>
+        <td>11:50-12:10</td>
+       <td><strong>Accepted Paper. </strong> Image Classification Using Deep Learning and Prior Knowledge <a href="papers/Roychowdhury.pdf"> [Paper]</a></td> 
+        <td>Michelangelo Diligenti, Soumali Roychowdhury and Marco Gori</td>
+      </tr>
+<tr class="info">
+        <td>12:10-02:10</td>
+        <td><strong>Lunch Break </strong></td> 
+        <td> </td>
+      </tr>
+      <tr class="success">
+        <td>2:10-03:00</td>
+       <td><strong>Keynote talk. </strong> Probabilistic Logics and Declarative Statistical Learning<a href="slides/declarative-learning-workshop-2018.pptx"> [Slides]</a></li></td> </td> 
+        <td>William Cohen</td>
+      </tr>
+<tr>
+       <td>3:00-3:30</td>
+       <td><strong>Invited Paper. </strong> Snorkel: Rapid Training Data Creation with Weak Supervision <a href="slides/Snorkel_DeLBP_AAAI_2018.pdf"> [Slides]</a></td> 
+        <td>Alex Ratner, Stephen H. Bach, Henry Ehrenberg, Jason Fries, Sen Wu, Christopher Ré</td>
+      </tr>
+      <tr class="info">
+        <td>3:30pm-4:00</td>
+        <td><strong>Coffee Break </strong></td> 
+        <td> </td>
+      </tr>
+      <tr class="success">
+        <td>4:00-4:50</td>
+        <td><strong>Keynote talk. </strong>Pyro: Programmable Probabilistic Programming with Python and PyTorch</td> 
+        <td>Eli Bingham</td>
+      </tr>
+      <tr>
+        <td>4:50-5:30</td>
+        <td><strong>Panel.</strong> Dan Roth, William Cohen, Kristian Kersting, Avi Pfeffer, Sebastian Riedel </td> 
+        <td> </td>
+      </tr>
+    </table>
+
+
+
+
+<a id="invitedSpeakers" class="anchor" href="#invitedSpeakers" aria-hidden="true"><span class="octicon octicon-link"></span></a><h2>Invited Speakers</h2>
+
+<ul>
+  <li><strong><a href="http://www.riedelcastro.org/">Sebastian Riedel</a>, University College London</strong></li>
+  
+<p> <strong> Reading and Reasoning with Neural Program Interpreters </strong>
+<p> Abstract. We are getting better at teaching end-to-end neural models how to answer questions about content in natural language text. However, progress has been mostly restricted to extracting answers that are directly stated in the text. In this talk, I will present our work towards teaching machines not only to read but also to reason with what was read and to do this in an interpretable and controlled fashion. Our main hypothesis is that this can be achieved by the development of neural abstract machines that follow the blueprint of program interpreters for real-world programming languages. We test this idea using two languages: an imperative (Forth) and a declarative (Prolog/Datalog) one. In both cases, we implement differentiable interpreters that can be used for learning reasoning patterns. Crucially, because they are based on interpretable host languages, the interpreters also allow users to easily inject prior knowledge and inspect the learnt patterns. Moreover, on tasks such as math word problems and relational reasoning, our approach compares favourably to state-of-the-art methods.
+</p> 
+<p>
+Bio. Sebastian Riedel is a reader in Natural Language Processing and Machine Learning at the University College London (UCL), where he is leading the Machine Reading lab. He is also the head of research at Bloomsbury AI and an Allen Distinguished Investigator. He works in the intersection of Natural Language Processing and Machine Learning, and focuses on teaching machines how to read and reason. He was educated in Hamburg-Harburg (Dipl. Ing) and Edinburgh (MSc., PhD), and worked at the University of Massachusetts Amherst and Tokyo University before joining UCL.
+</p>
+
+  <li><strong><a
+  href="http://www.cs.cmu.edu/~wcohen/">William Cohen</a>, Carnegie Mellon University</strong></li>
+<p> <strong> Probabilistic Logics and Declarative Statistical Learning </strong>
+
+<p>Abstract. TensorLog is a simple probabilistic first-order logic in which logical
+queries can be compiled into differentiable functions in a neural
+network infrastructure, such as Tensorflow or Theano. This leads to a
+close integration of probabilistic logical reasoning with
+deep-learning infrastructure: in particular, it enables
+high-performance deep learning frameworks to be used for learning the
+parameters of a probabilistic logic.  We show how TensorLog's
+integration with deep learners allows one to express logical
+constraints on learning for tasks such as question-answering against a
+knowledge base and semi-supervised learning for network data.
+</p>
+<p>
+Bio. William Cohen received his bachelor's degree in Computer Science from Duke University in 1984, and a PhD in Computer Science from Rutgers University in 1990. From 1990 to 2000 Dr. Cohen worked at AT&T Bell Labs and later AT&T Labs-Research, and from April 2000 to May 2002 Dr. Cohen worked at Whizbang Labs, a company specializing in extracting information from the web. Dr. Cohen is a past president of the International Machine Learning Society. In the past he has also served as an action editor for the the AI and Machine Learning series of books published by Morgan Claypool, for the journal Machine Learning, the journal Artificial Intelligence, the Journal of Machine Learning Research, and the Journal of Artificial Intelligence Research. He was General Chair for the 2008 International Machine Learning Conference, held July 6-9 at the University of Helsinki, in Finland; Program Co-Chair of the 2006 International Machine Learning Conference; and Co-Chair of the 1994 International Machine Learning Conference. Dr. Cohen was also the co-Chair for the 3rd Int'l AAAI Conference on Weblogs and Social Media, which was held May 17-20, 2009 in San Jose, and was the co-Program Chair for the 4rd Int'l AAAI Conference on Weblogs and Social Media. He is a AAAI Fellow, and was a winner of the 2008 the SIGMOD "Test of Time" Award for the most influential SIGMOD paper of 1998, and the 2014 SIGIR "Test of Time" Award for the most influential SIGIR paper of 2002-2004.
+ </p>
+ <li><strong> <a href="">Avi Pfeffer</a>, Charles River Analytics</strong></li> 
+
+
+<strong> Scruff: A Deep Probabilistic Cognitive Architecture </strong>
+ 
+<p>Abstract. Probabilistic programming is able to build rich models of systems that combine prior knowledge with the ability to learn from data. One of the reasons for the success of deep learning is the ability to discover hidden features of the domain through complex multi-layered, nonlinear functions; another reason is the ability to learn and reason effectively about these functions in a scalable way. Our goal is to develop generative probabilistic programs that have the same properties. 
+ 
+Recent trends in cognitive science view perception and action in a unified framework based on downward prediction using a generative probabilistic model and upward propagation of errors. Scruff is intended to be a probabilistic programming cognitive architecture based on this idea. Scruff provides many different mechanisms for accomplishing intelligent behavior, all within a neat generative probabilistic framework. Scruff uses Haskell’s rich type system to create a library of models, where each kind of model is able to support certain kinds of inference efficiently. The type system ensures that only compatible models can be linked together. Current mechanisms include learning parameters via gradient ascent backpropagation (as in deep neural networks), reinforcement learning to perform inference, conditioning on various kinds of evidence, and different ways of computing probabilities. Using Scruff, we are exploring a range of new kinds of deep models, such as deep noisy-or networks, deep probabilistic context free grammars, and deep conditional linear Guassian networks.</p>
+<p>
+  Bio. Dr. Avi Pfeffer is Chief Scientist at Charles River Analytics. Dr. Pfeffer is a leading researcher on a variety of computational intelligence techniques including probabilistic reasoning, machine learning, and computational game theory. Dr. Pfeffer has developed numerous innovative probabilistic representation and reasoning frameworks, such as probabilistic programming, which enables the development of probabilistic models using the full power of programming languages, and statistical relational learning, which provides the ability to combine probabilistic and relational reasoning. He is the lead developer of Charles River Analytics’ Figaro probabilistic programming language. As an Associate Professor at Harvard, he developed IBAL, the first general-purpose probabilistic programming language. While at Harvard, he also produced systems for representing, reasoning about, and learning the beliefs, preferences, and decision-making strategies of people in strategic situations. Prior to joining Harvard, he invented object-oriented Bayesian networks and probabilistic relational models, which form the foundation of the field of statistical relational learning. Dr. Pfeffer serves as Action Editor of the Journal of Machine Learning Research and served as Associate Editor of Artificial Intelligence Journal and as Program Chair of the Conference on Uncertainty in Artificial Intelligence. He has published many journal and conference articles and is the author of a text on probabilistic programming. Dr. Pfeffer received his Ph.D. in computer science from Stanford University and his B.A. in computer science from the University of California, Berkeley.
+ 
+</p>
+<li> <strong> <a href="">Eli Bingham,</a> Uber AI Labs </strong></li>  
+
+<strong>Pyro: Programmable Probabilistic Programming with Python and PyTorch </strong>
+<p>
+  Abstract. Most structured probabilistic models in modern AI research are still implemented from scratch as one-off systems, slowing their development and limiting their scope and extensibility.  Universal probabilistic programming languages promise to reduce this burden, but are challenged in practice by more advanced models that often require high-performance inference engines that can be heavily modified in model-specific ways.  We present Pyro, a probabilistic programming language embedded in Python designed to enable such flexibility.  To scale to large datasets and high-dimensional models, Pyro leverages stochastic variational inference algorithms and probability distributions built on top of PyTorch, a modern deep learning framework.  To accommodate complex or model-specific algorithmic behavior, Pyro leverages Poutine, a library of composable building blocks for modifying the behavior of probabilistic programs.  We show that these two features make it possible to use Pyro to successfully implement a range of deep probabilistic models, including Attend-Infer-Repeat (AIR), a recursively structured generative model of images.
+  </p>
+<p> Bio. Eli Bingham is a research scientist at Uber AI Labs, where he is one of the core developers of the probabilistic programming language Pyro.  He was previously an early employee and research scientist at Geometric Intelligence, which became Uber AI Labs, and a PhD student at NYU.</p>
+  </ul>
+
+<a id="accepted-papers" class="anchor" href="#accepted-papers" aria-hidden="true"><span class="octicon octicon-link"></span></a><h2>Invited Papers</h2>
+<ul>
+ <li> <strong>Alex Ratner, Stephen H. Bach, Henry Ehrenberg, Jason Fries, Sen Wu, Christopher Ré,</strong><em> Snorkel: Rapid Training Data Creation with Weak Supervision.</em></li>
+ </ul>
+ <a id="accepted-papers" class="anchor" href="#accepted-papers" aria-hidden="true"><span class="octicon octicon-link"></span></a><h2>Accepted Papers</h2>
+
+<ul>
+<li>
+<strong> 
+Golnoosh Farnadi, Behrouz Babaki and Lise Getoor,</strong><em> Fairness-aware Relational Learning and Inference.</em> </li>
+
+<li> <strong>Michelangelo Diligenti, Soumali Roychowdhury and Marco Gori,</strong><em> Image Classification Using Deep Learning and Prior Knowledge.</em>
+</li>
+ </ul>
+
+<h2>Submissions</h2>
+
+We encourage contributions with either a technical paper (AAAI style, 6 pages without references), a position statement (AAAI style, 2 pages maximum) or an abstract of a published work. AAAI Style files available <a href="http://www.aaai.org/Publications/Templates/AuthorKit18.zip">here</a>. Please make submissions via EasyChair, <a href="https://easychair.org/conferences/?conf=delbp2018">here</a>.
+
+ <a id="important-dates" class="anchor" href="#accepted-papers" aria-hidden="true"><span class="octicon octicon-link"></span></a><h2>Important Dates</h2>
+ <ul>
+  <li>Submission Deadline: <strike>October 20th, 2017</strike>  Extended to October 31st</li>
+  <li>Notification: November 13th, 2017 </li>
+  <li>Workshop Days: February 3, 2018</li>
+ </ul>
+  
+<a id="organizers" class="anchor" href="#organizers" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+
+<h2>Organizers Committee</h2>
+
+<table cellspacing="0" cellpadding="0" style="width:100%">
+<tr>
+<td width="32%">
+ <li><a href="http://www.cs.tulane.edu/%7Epkordjam/">Parisa Kordjamshidi</a></td>
+  <td>Tulane University, <a href="https://www.ihmc.us">IHMC</a></li></td>
+  <td> pkorjam@tulane.edu</td>
+</tr>
+<tr>
+<td><li><a href="http://l2r.cs.uiuc.edu/">Dan Roth</a></li></td>
+<td>University of Pennsylvania</td>
+<td>danroth@seas.upenn.edu</td>
+</tr>
+
+<tr> <td><li><a href="http://www-ai.cs.uni-dortmund.de/PERSONAL/kersting.html"> Kristian Kersting </a></li></td> 
+<td>TU Darmstadt</td> 
+<td>kersting@cs.tu-darmstadt.de</td>
+</tr>
+
+<tr>
+<td><li><a href="https://www.cs.purdue.edu/homes/dgoldwas/"> Dan Goldwasser</a> </li></td> <td>Purdue University</td>
+ <td>dgoldwas@purdue.edu</td> 
+ </tr>
+ <tr>
+<td><li><a href=""> Nikolaos Vasiloglou II</a> </li></td> <td>Ismion Inc</td>
+ <td>nvasil@gmail.com</td> 
+ </tr>
+
+</table>
+
+<p><a href="mailto:delbp_2@googlegroups.com?Subject=DeLBP" target="_top">Contact: delbp_3@googlegroups.com</a> </p>
+
+<a id="program-commitee" class="anchor" href="#program-commitee" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+
+<h2>Program Committee</h2>
+<div>
+<table cellspacing="0" cellpadding="0" float="left">
+<tr>
+<td width="45%">
+<li><a href="http://people.cs.kuleuven.be/%7Eguy.vandenbroeck/">Guy
+  Van den Broeck</a> </td> <td>University of California, Los Angeles</td></li>
+  </tr>
+ <tr>
+<td><li>Nikolaos Vasiloglou</td><td>Ismion Inc</li></td>
+</tr>
+  <tr>
+<td><li><a href="http://sameersingh.org">Sameer Singh</a></td><td> University of California, Irvine </td></li>
+</tr>
+<tr>
+<td>
+<li><a href="http://www.ai.sri.com/%7Ebraz/">Rodrigo de Salvo Braz</a></td><td> SRI International</td></li>
+</tr>
+<tr>
+<td><li>Tias Guns</td><td>Vrije University of Brussels</li></td>
+</tr>
+<tr>
+<td width="47%">
+<li> Christos Christodoulopoulos</td> <td>Amazon Cambridge, UK</li></td>
+</tr>
+<tr>
+<td><li>William Wang</td><td>University of California, Santa Barbara</li></td>
+</tr>
+<tr>
+<td><li>Martin Mladenov</td><td>Technical University of Dortmund</li></td>
+</tr>
+<tr>
+<td><li>Kai-Wei Chang</td><td> University of California, Los Angeles</li></td>
+</tr>
+<tr>
+<td><li>Umar Manzoor</td><td> Tulane University</li></td>
+</tr>
+<tr>
+<td><li>Mark Kaminski</td><td> University of Oxford</li></td>
+</tr>
+<tr>
+<td><li>Avi Pfeffer</td><td>Charles River Analytics</li></td>
+</tr>
+</table>
+<p>
+<table style="display: inline-block; border: 0;align-content: center;">
+<tr>
+<td><img style="width: 130px; display: block; height: auto;" src="ihmc_logo.png"></a></td></tr>
+</table>
+</div>
+<!--<a href="https://www.ihmc.us"><img style="width: 140px; height: auto;" src="AS-267480109387779@1440783635465_l.jpeg" align="right"></a>-->
+
+<footer class="site-footer">
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11083511; 
+var sc_invisible=1; 
+var sc_security="2f97c6cf"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11083511/0/2f97c6cf/1/" alt="web
+analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</body>
+</html>
